@@ -1,0 +1,4 @@
+
+
+def InterfazAdmin():
+    return 
