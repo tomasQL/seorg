@@ -6,7 +6,7 @@
 
 from interfaz_admin import InterfazAdmin
 from interfaz_cliente import InterfazCliente
-from interfaz_org import InterfazOrganizacion
+from interfaz_org import  Organizacion
 
 
 def menuBienvenida():
@@ -37,7 +37,7 @@ def ejecutarOpcion(opcion):
 
     if opcion == 1:
         try:
-            InterfazOrganizacion()
+            Organizacion.InterfazOrganizacion()
         except:
             print("Ocurrió un error...")
     if opcion == 2:
